@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<jsp:include page="VerificaAutenticacao.jsp"></jsp:include>
 <html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
