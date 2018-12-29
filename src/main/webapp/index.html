@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+    <form action="ServletLogin" method="post">
+
+
+        <div class="container">
+            <h2>Fazer login no sistema</h2>
+            <label for="uname"><b>Usuário</b></label>
+            <input type="text" class="form-control" placeholder="Digite seu usuário..." name="nome">
+
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" class="form-control" placeholder="Digite sua senha..." name="senha">
+            <p></p>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span> Login</button> ou <a href="UsersView.jsp"><button formaction="UsersView.jsp" type="submit" class="btn btn-default">Cadastre-se</button></a>
+            <p></p>
+        </div>
+    </form>
+    <form>
+        <div class="container">
+            <span class="psw">Esqueceu sua <a href="#">senha?</a></span>
+        </div>
+    </form>
+
+</body>
+</html>
